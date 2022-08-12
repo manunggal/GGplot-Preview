@@ -54,6 +54,10 @@ code_snipet_strings = function(
   
   glue(
     "
+    # Required libraries
+    library(ggplot2)
+    library(paletteer)
+    
     ggplot(mtcars, aes(x=mpg, y=disp, size=hp, shape=as.factor(gear), col=as.factor(cyl))) +
       geom_point(alpha = {scatter_transparency}) +
       
