@@ -1,0 +1,14 @@
+---
+title: "GGplot Preview"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+I notice that sometimes I spent too much time perfecting my report's charts prior to publication or report submissions. Because who doesn't want colorful charts with personalized theme in their report? Accordingly I created this shiny app to help me personalized the features and theme for my GGplot charts. You can modify the color for background, lines, and text, or scatter size, etc, afterwards you can copy the code for the plot and run it in your console to generate the same plot.  Knowing that I'm not alone in this regards, hence I share this app at: 
+
+https://manunk.shinyapps.io/GGplot-Preview/
+
