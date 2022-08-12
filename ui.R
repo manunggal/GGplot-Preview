@@ -9,7 +9,12 @@ library(rclipboard)
 # - Icon, https://fontawesome.com/icons
 
 
-header = dashboardHeader("Plot Preview")
+header = dashboardHeader(
+  "GGplot Preview ",
+  skin = "dark",
+  status = "dark",
+  span(style = "color: white; font-size: 28px, font-weight: bold;")
+  )
 
 sidebar = dashboardSidebar(
   skin = "dark", status = "info", collapsed = FALSE,
